@@ -1,0 +1,5 @@
+producto P001 {
+    nombre = "Arroz"
+    precio = 4.50;
+    categoria = "Abarrotes";
+}

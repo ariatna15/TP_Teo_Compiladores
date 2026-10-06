@@ -1,0 +1,24 @@
+producto P001 {
+    nombre = "Arroz";
+    precio = 4.50;
+    categoria = "Abarrotes";
+}
+
+proveedor PR01 {
+    nombre = "Distribuidora Lima";
+    contacto = "987654321";
+}
+
+compra C001 {
+    proveedor = PR01;
+    producto = P001;
+    cantidad = 50;
+    costo = 3.20;
+}
+
+venta V001 {
+    producto = P001;
+    cantidad = 3;
+}
+
+reporte stock;

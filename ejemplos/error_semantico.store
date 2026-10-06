@@ -1,0 +1,10 @@
+producto P001 {
+    nombre = "Arroz";
+    precio = 4.50;
+    categoria = "Abarrotes";
+}
+
+venta V001 {
+    producto = P999;
+    cantidad = 3;
+}
